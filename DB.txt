@@ -1,0 +1,17 @@
+create database GraphPassword;
+use GraphPassword;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact varchar(12),
+email varchar(50),
+address varchar(80),
+spot1 varchar(30),
+spot2 varchar(30),
+spot3 varchar(30),
+spot4 varchar(30));
+
+
+
+
+
